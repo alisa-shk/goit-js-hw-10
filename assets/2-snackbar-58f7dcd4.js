@@ -1,0 +1,2 @@
+import{i as t}from"./vendor-77e16229.js";const o=document.querySelector(".form");o.addEventListener("submit",function(l){l.preventDefault();const s=parseInt(o.elements.delay.value),i=o.elements.state.value;new Promise((e,m)=>{setTimeout(()=>{i==="fulfilled"?e(s):m(s)},s)}).then(e=>{t.show({title:"✅",message:` Fulfilled promise in ${e}ms`,backgroundColor:"#59A10D",messageColor:"#FFF"})}).catch(e=>{t.show({title:"❌",message:` Rejected promise in ${e}ms`,backgroundColor:"#EF4040",messageColor:"#FFF"})})});
+//# sourceMappingURL=2-snackbar-58f7dcd4.js.map
