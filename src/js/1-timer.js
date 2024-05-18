@@ -53,12 +53,6 @@ startBtn.addEventListener("click", function () {
 
 
 
-// iziToast.error({
-//     title: 'Error',
-//     message: 'Illegal operation',
-// });
-
-
 function updateCountdown(days, hours, minutes, seconds) {
     document.querySelector("[data-days]").textContent = String(days).padStart(2, '0');
     document.querySelector("[data-hours]").textContent = String(hours).padStart(2, '0');
